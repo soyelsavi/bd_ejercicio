@@ -3,7 +3,7 @@ from logger_base import logger
 class Persona:
    
         
-    def __init__ (self, id_persona =None, nombre= None,apellido=None,email=None):
+    def __init__ (self, id_persona = None, nombre = None, apellido = None,email = None):
         
         self.__id_persona = id_persona
         self.__nombre =  nombre

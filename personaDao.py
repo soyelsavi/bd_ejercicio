@@ -5,7 +5,7 @@ from logger_base import logger
 class PersonaDao:
     
     __SELECIONAR = 'SELECT * FROM persona  ORDER BY id_persona'
-    __INSERTAR = 'INSERT INTO persona(nombre,apelido,email) VALUES(%s,%s,%s)  '
+    __INSERTAR = 'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)  '
     @classmethod
     def seleccionar(cls):
         cursor = Conexion.obtenerCursor()
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     #for persona in personas:
      #   logger.debug(persona)
       #  logger.debug(persona.get_id())
-    persona = Persona(nombre='Pedro', apellido='Najera', email='pnajera@mail.com')
-    personas_insertadas = PersonaDao.insertar(persona)
+    persona2 = Persona(nombre='Juans', apellido='Acosta', email='Joder@mail.com')
+    personas_insertadas = PersonaDao.insertar(persona2)
     logger.debug(f'Personas insertados: {personas_insertadas}')
     

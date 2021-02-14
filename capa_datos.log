@@ -107,3 +107,101 @@ ERROR:root:Ocurrion un error en la base de datos
 08: 46: 48: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
 08: 46: 48: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
 08: 46: 48: PM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+10: 51: 08: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+10: 51: 08: AM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+10: 51: 08: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+10: 51: 08: AM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+10: 51: 08: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+10: 57: 54: AM : DEBUG [persona.py:40 ] Id Persona: 1 Nombre: juan, Apellido: saravia, Email: je@gmail  
+10: 57: 54: AM : DEBUG [persona.py:42 ] Id Persona: None Nombre: Karla, Apellido: Echeverry, Email: ke@gmail.com  
+10: 59: 01: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+10: 59: 01: AM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+10: 59: 01: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+10: 59: 01: AM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+10: 59: 01: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 00: 27: AM : DEBUG [persona.py:40 ] Id Persona: 1 Nombre: juan, Apellido: saravia, Email: je@gmail  
+11: 00: 27: AM : DEBUG [persona.py:42 ] Id Persona: None Nombre: Karla, Apellido: Echeverry, Email: ke@gmail.com  
+11: 00: 37: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 00: 37: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+11: 00: 37: AM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+11: 00: 37: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 00: 48: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 00: 48: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+11: 00: 48: AM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+11: 00: 48: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 03: 00: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 03: 00: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+11: 03: 00: AM : DEBUG [conexion.py:50 ] Se han cerrado los objetos conexion y cursor 
+11: 03: 00: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 03: 18: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 03: 18: AM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+11: 03: 18: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+11: 03: 18: AM : DEBUG [conexion.py:50 ] Se han cerrado los objetos conexion y cursor 
+11: 03: 18: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 04: 19: AM : DEBUG [conexion.py:24 ] Conexion exitosa: {cls.__conexion}  
+11: 04: 19: AM : ERROR [conexion.py:40 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor' 
+11: 04: 19: AM : DEBUG [conexion.py:52 ] Se han cerrado los objetos conexion y cursor 
+11: 12: 18: AM : DEBUG [conexion.py:24 ] Conexion exitosa: {cls.__conexion}  
+11: 12: 18: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'psycopg2.extensions.connection' object has no attribute 'obtenerCursor' 
+11: 12: 18: AM : DEBUG [conexion.py:52 ] Se han cerrado los objetos conexion y cursor 
+11: 12: 18: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 13: 11: AM : DEBUG [conexion.py:24 ] Conexion exitosa: {cls.__conexion}  
+11: 13: 11: AM : ERROR [conexion.py:40 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor' 
+11: 13: 11: AM : DEBUG [conexion.py:52 ] Se han cerrado los objetos conexion y cursor 
+11: 19: 05: AM : ERROR [conexion.py:26 ] Error al conectar a la BD:  
+11: 19: 05: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 19: 49: AM : ERROR [conexion.py:26 ] Error al conectar a la BD:  
+11: 19: 49: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 20: 23: AM : DEBUG [conexion.py:23 ] Conexión exitosa: <connection object at 0x0249BB70; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+11: 20: 23: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x024529A8; closed: 0> 
+11: 20: 23: AM : DEBUG [personaDao.py:27 ] b'INSERT INTO persona(nombre, apelido, email) VALUES(%s,%s,%s)  ' 
+11: 20: 23: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com  
+11: 20: 23: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:no existe la columna «apelido» en la relación «persona»
+LINE 1: INSERT INTO persona(nombre, apelido, email) VALUES('Pedro','...
+                                    ^
+ 
+11: 20: 23: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 20: 23: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 20: 39: AM : DEBUG [conexion.py:23 ] Conexión exitosa: <connection object at 0x0159EA40; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+11: 20: 39: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x01552928; closed: 0> 
+11: 20: 39: AM : DEBUG [personaDao.py:27 ] b'INSERT INTO persona(nombre, apelido, email) VALUES(%s,%s,%s)  ' 
+11: 20: 39: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com  
+11: 20: 39: AM : ERROR [personaDao.py:35 ] Excepción al insertar persona:no existe la columna «apelido» en la relación «persona»
+LINE 1: INSERT INTO persona(nombre, apelido, email) VALUES('Pedro','...
+                                    ^
+ 
+11: 20: 39: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 20: 39: AM : DEBUG [personaDao.py:47 ] Personas insertados: None 
+11: 24: 03: AM : DEBUG [conexion.py:23 ] Conexión exitosa: <connection object at 0x01B4BB70; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+11: 24: 03: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x00E529A8; closed: 0> 
+11: 24: 03: AM : DEBUG [personaDao.py:27 ] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)  ' 
+11: 24: 03: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com  
+11: 24: 03: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 24: 03: AM : DEBUG [personaDao.py:47 ] Personas insertados: 1 
+11: 27: 02: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 27: 02: AM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor' 
+11: 27: 02: AM : DEBUG [conexion.py:51 ] Se han cerrado los objetos conexion y cursor 
+11: 27: 33: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 27: 33: AM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor' 
+11: 27: 33: AM : DEBUG [conexion.py:51 ] Se han cerrado los objetos conexion y cursor 
+11: 31: 52: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 31: 52: AM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor' 
+11: 31: 52: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 35: 49: AM : ERROR [conexion.py:26 ] Error al conectar a la BD:  
+11: 35: 49: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 36: 01: AM : DEBUG [conexion.py:23 ] Conexión exitosa: {cls.__conexion} 
+11: 36: 01: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x01721928; closed: 0> 
+11: 36: 01: AM : INFO [conexion.py:59 ] <cursor object at 0x01721928; closed: 0> 
+11: 36: 01: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 36: 09: AM : DEBUG [conexion.py:23 ] Conexión exitosa: {cls.__conexion} 
+11: 36: 09: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x01CB29A8; closed: 0> 
+11: 36: 09: AM : DEBUG [personaDao.py:27 ] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)  ' 
+11: 36: 09: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Juans, Apellido: Acosta, Email: Joder@mail.com  
+11: 36: 09: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 36: 09: AM : DEBUG [personaDao.py:47 ] Personas insertados: 1 
+11: 40: 30: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 40: 30: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x013029A8; closed: 0> 
+11: 40: 30: AM : DEBUG [personaDao.py:27 ] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)  ' 
+11: 40: 30: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Juans, Apellido: Acosta, Email: Joder@mail.com  
+11: 40: 30: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 40: 30: AM : DEBUG [personaDao.py:47 ] Personas insertados: 1 
