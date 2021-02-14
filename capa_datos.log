@@ -24,3 +24,5 @@ ERROR:root:Ocurrion un error en la base de datos
 07: 04: 53: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
 07: 04: 53: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x02090928; closed: 0>  
 07: 04: 53: PM : INFO [conexion.py:43 ] <cursor object at 0x02090928; closed: 0> 
+07: 30: 15: PM : DEBUG [persona.py:40 ] Id Persona: 1 Nombre: juan, Apellido: saravia, Email: je@gmail  
+07: 30: 15: PM : DEBUG [persona.py:42 ] Id Persona: None Nombre: Karla, Apellido: Echeverry, Email: ke@gmail.com  
