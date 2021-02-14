@@ -205,3 +205,28 @@ LINE 1: INSERT INTO persona(nombre, apelido, email) VALUES('Pedro','...
 11: 40: 30: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Juans, Apellido: Acosta, Email: Joder@mail.com  
 11: 40: 30: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
 11: 40: 30: AM : DEBUG [personaDao.py:47 ] Personas insertados: 1 
+11: 49: 32: AM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+11: 49: 32: AM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x015929A8; closed: 0> 
+11: 49: 32: AM : DEBUG [personaDao.py:27 ] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)  ' 
+11: 49: 32: AM : DEBUG [personaDao.py:28 ] Persona a insertar: Id Persona: None Nombre: Juans, Apellido: Acosta, Email: Joder@mail.com  
+11: 49: 32: AM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+11: 49: 32: AM : DEBUG [personaDao.py:47 ] Personas insertados: 1 
+12: 20: 42: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+12: 20: 42: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x01C539A8; closed: 0> 
+12: 20: 42: PM : DEBUG [personaDao.py:45 ] b'UPDATE persona  SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s ' 
+12: 20: 42: PM : DEBUG [personaDao.py:46 ] Persona a actualizar: Id Persona: 15 Nombre: Daniel, Apellido: contreras, Email: dcontreras@gmail.com  
+12: 20: 42: PM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+12: 20: 42: PM : DEBUG [personaDao.py:68 ] Personas Actualizadas 1 
+12: 24: 39: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+12: 24: 39: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x01174928; closed: 0> 
+12: 24: 39: PM : DEBUG [personaDao.py:61 ] b'DELETE FROM persona  WHERE id_persona=%s' 
+12: 24: 39: PM : DEBUG [personaDao.py:62 ] Persona a eliminar: Id Persona: 16 Nombre: None, Apellido: None, Email: None  
+12: 24: 39: PM : ERROR [personaDao.py:69 ] Excepción al eliminar persona:tuple index out of range 
+12: 24: 39: PM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+12: 24: 39: PM : DEBUG [personaDao.py:87 ] Persona eliminada {persona_eliminada} 
+12: 25: 32: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+12: 25: 32: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con éxito: <cursor object at 0x01C04928; closed: 0> 
+12: 25: 32: PM : DEBUG [personaDao.py:61 ] b'DELETE FROM persona  WHERE id_persona=%s' 
+12: 25: 32: PM : DEBUG [personaDao.py:62 ] Persona a eliminar: Id Persona: 16 Nombre: None, Apellido: None, Email: None  
+12: 25: 32: PM : DEBUG [conexion.py:56 ] Se han cerrado los objetos de conexión y cursor 
+12: 25: 32: PM : DEBUG [personaDao.py:87 ] Persona eliminada {persona_eliminada} 
