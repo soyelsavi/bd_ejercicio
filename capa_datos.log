@@ -26,3 +26,84 @@ ERROR:root:Ocurrion un error en la base de datos
 07: 04: 53: PM : INFO [conexion.py:43 ] <cursor object at 0x02090928; closed: 0> 
 07: 30: 15: PM : DEBUG [persona.py:40 ] Id Persona: 1 Nombre: juan, Apellido: saravia, Email: je@gmail  
 07: 30: 15: PM : DEBUG [persona.py:42 ] Id Persona: None Nombre: Karla, Apellido: Echeverry, Email: ke@gmail.com  
+07: 55: 06: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+07: 55: 06: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x03B05028; closed: 0>  
+07: 55: 06: PM : DEBUG [personaDao.py:11 ] b'SELECT * FROM persona  ORDER BY id_persona' 
+07: 55: 06: PM : DEBUG [personaDao.py:22 ] Id Persona: 12 Nombre: carlos, Apellido: lara, Email: clara@email.com  
+07: 57: 14: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+07: 57: 14: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x039B6028; closed: 0>  
+07: 57: 14: PM : DEBUG [personaDao.py:11 ] b'SELECT * FROM persona  ORDER BY id_persona' 
+07: 57: 14: PM : DEBUG [personaDao.py:22 ] Id Persona: 12 Nombre: carlos, Apellido: lara, Email: clara@email.com  
+07: 57: 14: PM : DEBUG [personaDao.py:23 ] 12 
+08: 13: 16: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 13: 16: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 13: 16: PM : ERROR [personaDao.py:36 ] Exepcion al insetar persona: 'NoneType' object has no attribute 'mogrify'  
+08: 13: 16: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 13: 16: PM : DEBUG [personaDao.py:48 ] Registro Insertado:None  
+08: 13: 40: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 13: 40: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x016F09A8; closed: 0>  
+08: 13: 40: PM : DEBUG [personaDao.py:12 ] b'SELECT * FROM persona  ORDER BY id_persona' 
+08: 13: 40: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 13: 40: PM : DEBUG [personaDao.py:44 ] Id Persona: 12 Nombre: carlos, Apellido: lara, Email: clara@email.com  
+08: 13: 40: PM : DEBUG [personaDao.py:45 ] 12 
+08: 22: 27: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 22: 27: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 22: 27: PM : ERROR [personaDao.py:36 ] Exepcion al insetar persona: 'NoneType' object has no attribute 'mogrify'  
+08: 22: 27: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 22: 27: PM : DEBUG [personaDao.py:48 ] Registro Insertado:None  
+08: 25: 56: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 25: 56: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 25: 56: PM : ERROR [personaDao.py:36 ] Exepcion al insetar persona: 'NoneType' object has no attribute 'mogrify'  
+08: 25: 56: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 25: 56: PM : DEBUG [personaDao.py:48 ] Registro Insertado:None  
+08: 28: 27: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 28: 27: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 28: 27: PM : ERROR [personaDao.py:36 ] Exepcion al insetar persona: 'NoneType' object has no attribute 'mogrify'  
+08: 28: 27: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 28: 27: PM : DEBUG [personaDao.py:48 ] Registro Insertado:None  
+08: 29: 37: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 29: 37: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 29: 37: PM : ERROR [personaDao.py:36 ] Exepcion al insetar persona: 'NoneType' object has no attribute 'mogrify'  
+08: 29: 37: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 29: 37: PM : DEBUG [personaDao.py:48 ] Registro Insertado:None  
+08: 32: 04: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 32: 04: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 32: 04: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+08: 32: 04: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 32: 04: PM : DEBUG [personaDao.py:47 ] Registro Insertado:None  
+08: 35: 20: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 35: 20: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 35: 20: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+08: 35: 20: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 35: 20: PM : DEBUG [personaDao.py:47 ] Registro Insertado:None  
+08: 37: 53: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 37: 53: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x019E19A8; closed: 0>  
+08: 37: 53: PM : DEBUG [personaDao.py:12 ] b'SELECT * FROM persona  ORDER BY id_persona' 
+08: 37: 53: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 37: 53: PM : DEBUG [personaDao.py:43 ] Id Persona: 12 Nombre: carlos, Apellido: lara, Email: clara@email.com  
+08: 37: 53: PM : DEBUG [personaDao.py:44 ] 12 
+08: 39: 16: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 39: 16: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x01FA2928; closed: 0>  
+08: 39: 16: PM : DEBUG [personaDao.py:12 ] b'SELECT * FROM persona  ORDER BY id_persona' 
+08: 39: 16: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 39: 16: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 39: 47: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 39: 47: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 39: 47: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+08: 39: 47: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 39: 47: PM : DEBUG [personaDao.py:47 ] Registro Insertado:None  
+08: 40: 14: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 40: 14: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 40: 14: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+08: 40: 14: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 40: 14: PM : DEBUG [personaDao.py:47 ] Registro Insertado:None  
+08: 44: 59: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 44: 59: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 44: 59: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+08: 44: 59: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 44: 59: PM : DEBUG [personaDao.py:47 ] Registro Insertado:None  
+08: 46: 48: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+08: 46: 48: PM : ERROR [conexion.py:39 ] Error al obtener cursor:'NoneType' object has no attribute 'cursor'  
+08: 46: 48: PM : ERROR [personaDao.py:35 ] Excepción al insertar persona:'NoneType' object has no attribute 'mogrify' 
+08: 46: 48: PM : DEBUG [conexion.py:47 ] Se han cerrado los objetos conexion y cursor 
+08: 46: 48: PM : DEBUG [personaDao.py:47 ] Personas insertados: None 
