@@ -1,0 +1,26 @@
+WARNING:root:Mesaje a nivel WarningS
+INFO:root:Mensaje a nivel info
+DEBUG:root:Mensaje a nivel debug
+ERROR:root:Ocurrion un error en la base de datos
+06:24:33 PM: WARNING [logger_base.py:15] mensaje a nivel warning
+06:24:33 PM: INFO [logger_base.py:16] mensaje a nivel info
+06:24:33 PM: DEBUG [logger_base.py:17] mensaje a nivel debug
+06:24:33 PM: ERROR [logger_base.py:18] Ocurrió un error en la base de datos
+06:24:33 PM: DEBUG [logger_base.py:19] se realizó la conexión con exito
+2021-02-13 18:25:57,166: WARNING [logger_base.py:12 ] Mesaje a nivel WarningS 
+2021-02-13 18:25:57,168: INFO [logger_base.py:13 ] Mensaje a nivel info 
+2021-02-13 18:25:57,170: DEBUG [logger_base.py:14 ] Mensaje a nivel debug 
+2021-02-13 18:25:57,190: ERROR [logger_base.py:15 ] Ocurrion un error en la base de datos 
+06: 27: 47: : WARNING [logger_base.py:13 ] Mesaje a nivel WarningS 
+06: 27: 47: : INFO [logger_base.py:14 ] Mensaje a nivel info 
+06: 27: 47: : DEBUG [logger_base.py:15 ] Mensaje a nivel debug 
+06: 27: 47: : ERROR [logger_base.py:16 ] Ocurrion un error en la base de datos 
+06: 29: 06: PM : WARNING [logger_base.py:14 ] Mesaje a nivel WarningS 
+06: 29: 06: PM : INFO [logger_base.py:15 ] Mensaje a nivel info 
+06: 29: 06: PM : DEBUG [logger_base.py:16 ] Mensaje a nivel debug 
+06: 29: 06: PM : ERROR [logger_base.py:17 ] Ocurrion un error en la base de datos 
+06: 55: 26: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+06: 55: 26: PM : INFO [conexion.py:33 ] <connection object at 0x021E2D38; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+07: 04: 53: PM : DEBUG [conexion.py:23 ] Conexion exitosa: {cls.__conexion}  
+07: 04: 53: PM : DEBUG [conexion.py:36 ] Se abrio el cursor con exito: <cursor object at 0x02090928; closed: 0>  
+07: 04: 53: PM : INFO [conexion.py:43 ] <cursor object at 0x02090928; closed: 0> 
